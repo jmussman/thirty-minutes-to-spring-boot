@@ -5,12 +5,16 @@
 package com.wonderfulwidgets.thirtyminutestospringboot;
 
 import com.wonderfulwidgets.thirtyminutestospringboot.api.CheckoutController;
+import com.wonderfulwidgets.thirtyminutestospringboot.service.CheckoutService;
 import com.wonderfulwidgets.thirtyminutestospringboot.service.Factory;
+import com.wonderfulwidgets.thirtyminutestospringboot.service.ICardAuthorizer;
 
 public class ThirtyMinutesToSpringBootApplication {
 
     public static void main(String[] args) {
 
-        CheckoutController checkoutController = Factory.getCheckoutController();
+        ICardAuthorizer cardAuthorizer = Factory.getCardAuthorizer();
+        CheckoutService checkoutService = Factory.getCheckoutService(cardAuthorizer);
+        CheckoutController checkoutController = Factory.getCheckoutController(checkoutService);
     }
 }

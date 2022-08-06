@@ -8,18 +8,18 @@ import com.wonderfulwidgets.thirtyminutestospringboot.api.CheckoutController;
 
 public class Factory {
 
-    public static CardAuthorizer getCardAuthorizer() {
+    public static ICardAuthorizer getCardAuthorizer() {
 
         return new CardAuthorizer();
     }
 
-    public static CheckoutController getCheckoutController() {
+    public static CheckoutController getCheckoutController(CheckoutService checkoutService) {
 
-        return new CheckoutController();
+        return new CheckoutController(checkoutService);
     }
 
-    public static CheckoutService getCheckoutService() {
+    public static CheckoutService getCheckoutService(ICardAuthorizer cardAuthorizer) {
 
-        return new CheckoutService();
+        return new CheckoutService(cardAuthorizer);
     }
 }

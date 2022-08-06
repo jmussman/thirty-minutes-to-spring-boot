@@ -11,8 +11,8 @@ public class CheckoutController {
 
     private CheckoutService checkoutService;
 
-    public CheckoutController() {
+    public CheckoutController(CheckoutService checkoutService) {
 
-        checkoutService = Factory.getCheckoutService();
+        this.checkoutService = checkoutService;
     }
 }

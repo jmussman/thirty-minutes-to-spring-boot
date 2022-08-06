@@ -6,10 +6,10 @@ package com.wonderfulwidgets.thirtyminutestospringboot.service;
 
 public class CheckoutService {
 
-    private CardAuthorizer cardAuthorizer;
+    private ICardAuthorizer cardAuthorizer;
 
-    public CheckoutService() {
+    public CheckoutService(ICardAuthorizer cardAuthorizer) {
 
-        cardAuthorizer = Factory.getCardAuthorizer();
+        this.cardAuthorizer = cardAuthorizer;
     }
 }

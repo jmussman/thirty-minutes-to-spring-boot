@@ -4,5 +4,5 @@
 
 package com.wonderfulwidgets.thirtyminutestospringboot.service;
 
-public class CardAuthorizer {
+public class CardAuthorizer implements ICardAuthorizer {
 }
