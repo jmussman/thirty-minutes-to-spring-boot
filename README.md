@@ -12,7 +12,7 @@ instructions here if you do it yourself, because you need to read the instructio
 and understand the commentary :)
 
 The full solution is on the *main* branch.
-The solution for each part are on feature branches:
+The solutions for each part are on feature branches:
 
 * feature/factory
 * feature/dependencyinjection
