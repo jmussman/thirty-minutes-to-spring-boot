@@ -197,7 +197,7 @@ that abstraction instead of concretions (the *dependency inversion* principle!).
     }
 	```
 
-### Part 3 - Build the API with Spring Boot
+## Part 3 - Build the API with Spring Boot
 
 The Spring Boot framework is designed to do the heavy lifting of creating an API.
 Spring encompases a factory, container, and a controller to manage them *and* the
