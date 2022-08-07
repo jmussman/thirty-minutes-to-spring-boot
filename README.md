@@ -322,6 +322,13 @@ be a good place to start: https://www.baeldung.com/integration-testing-in-spring
 
 <hr>
 
-## Acknowledgements
+## Support
+
+If you found this project helpful, and and you would like to see more free projects like this,
+then please consider
+a contribution to *Joel's Coffee Fund* at **Smallrock Internet** to help keep the good stuff coming :)<br />
+
+[![Donate](./.common/Donate-Paypal.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XPUGVGZZ8RUAA)
+
 
 Copyright © 2020 Joel Mussman. All rights reserved.
