@@ -331,4 +331,4 @@ a contribution to *Joel's Coffee Fund* at **Smallrock Internet** to help keep th
 [![Donate](./.common/Donate-Paypal.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XPUGVGZZ8RUAA)
 
 
-Copyright © 2020 Joel Mussman. All rights reserved.
+Copyright © 2022 Joel Mussman. All rights reserved.
