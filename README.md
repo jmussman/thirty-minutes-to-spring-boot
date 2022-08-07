@@ -45,7 +45,7 @@ In the live demonstration there is a quick review of principles and patterns:
 
 This part of the activity builds a checkout controller which delegates to a checkout
 service, which leverages a credit card authorizer for a purchase.
-A factory class will provide instances of the three classes:
+main will leverage a factory class which provides instances of the three classes:
 
 ![](.common/factory.png?raw=true)
 
